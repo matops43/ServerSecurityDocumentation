@@ -23,10 +23,10 @@ kompatybilna z technologią tworzenia API (Laravel).
 
 ### 2. Broker MQTT
 #### Co trzeba zabezpieczyć?
-- Zdefiniowanie ACL (kto czyta tematy/kto publikuje do tematów)
+- Zdefiniowanie ACL (kto czyta tematy/kto publikuje do tematów).
 - Publikujący łączy się poprzez TLS.
 ![Sposób działania TLS](./tls.png)
-- Zamknięcie niepotrzebnych portów dla ruchu innego ni lokalny
+- Jedyne otwarte porty to jeden dla ruchu zewnętrznego i jeden dla lokalnego.
 - Wyłączenie możliwości anaonimowych połączeń.
 - Określenie konkretnie użytkownikow.
 #### Technologie
