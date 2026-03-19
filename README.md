@@ -35,4 +35,6 @@ Wszystkie opisane metody zabezpieczenia jest w stanie zrealizować Mosquitto czy
 ### 3. Baza danych
 Jest rozważana jako element systemu.
 
+(proponowane rozwiązanie PostgreSQL + TimescaleDB)
+
 Decyzja o jej włączeniu a tym samym zakresie zabezpieczeń nie została jeszcze podjęta.
